@@ -1,0 +1,48 @@
+#container{
+    max-width: 90%;
+    max-height: 80%;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #b7b8d0;
+}
+#container .clock{
+    font-size: 180px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #e4f6f3;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.start{
+    font-size: 50px;
+    margin-right: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: #615EFC;
+    border: none;
+    border-radius: 15px;
+}
+.start:hover{
+    background-color: #7E8EF1;
+    cursor: pointer;
+}
+.stop{
+    font-size: 50px;
+    margin-left: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: #615EFC;
+    border: none;
+    border-radius: 15px;
+}
+.stop:hover{
+    background-color: #7E8EF1;
+    cursor: pointer;
+}
