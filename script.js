@@ -3,8 +3,6 @@ const update = () => {
     let h = d.getHours()
     let m = d.getMinutes()
     let s = d.getSeconds()
-    hour.innerHTML = h
-    minute.innerHTML = m
     if (h < 10){
         second.innerHTML = '0' + h
     }
